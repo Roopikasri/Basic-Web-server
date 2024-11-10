@@ -1,0 +1,63 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #89f7fe, #66a6ff); /* Soft blue gradient */
+    color: #333;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    background-color: #ffffffdd; /* White background with slight transparency */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 12px 25px;
+    color: #ffffff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 25px; /* Rounded button style */
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .links a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+  
+  .footer {
+    margin-top: 25px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
